@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* HEADER */
+header {
+  width: 100%;
+
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero {
+  background-image:url("https://wallpapertag.com/wallpaper/middle/6/5/6/143960-gym-wallpaper-1920x1080-for-meizu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-text {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ /* NAV MENU */
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+/*  */
+h1 {
+        border-top:none;
+        border-bottom: none;
+        padding: 90px 40px;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-weight: 800; 
+}
+
+h1.category {
+  text-align: center;
+  overflow: hidden;
+
+}
+
+h3.category-name {
+  font-size: xx-large;
+  border-top:none;
+  border-bottom: none;
+}
+
+.testimony {
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+
+.testimony-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex:1 1 ;
+  width:70%;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.testimony-image {
+  width:380px;
+  height: 300px;
+  margin-left: 40px;
+}
+.testimony-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimony-text {
+  width: 50%;
+  font-style: italic;
+  font-size: large;
+}
+
+/* COMMENT */
+
+
+/*  */
+#MDA{
+  float: left;
+  width: 8em;
+  height: auto;
+}
+
+/*  */
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+
+
+/*  */
+section {
+  font-size      :  0.8em;
+  width          : 100%;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+/*  */
+
+/*  */
+.cardlist {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  /* Responsive behaviour */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 16px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  margin:  20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: 50%;
+  height: auto;
+  border-radius: 10%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+  0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+  width: 100%;
+  transform: scale(1.2);
+}
+
+p {
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.name {
+  margin-top: 80px;
+  font-size: 1.4em;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+}
+
+
+
+/*  */
+
+.memberships {
+  background: black;
+  color: white;
+  padding: 6rem calc((100vw - 1100px) / 2);
+  text-align: center;
+}
+
+.memberships h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  padding: 0 1rem;
+}
+
+.membership-desc {
+  margin-bottom: 3rem;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem;
+}
+
+.membership-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.membership-card {
+  padding: 2rem;
+  min-height: 450px;
+  margin: 2em;
+  width: 325px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.membership-perks {
+  min-height: 150px;
+}
+
+.membership-card p {
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: red;
+}
+
+.membership-card h3 {
+  font-size: clamp(1rem, 5vw, 2rem);
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .membership-wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .membership-card {
+      width: 90%;
+      margin-bottom: 2rem;
+  }
+}
+
+/* ADVICE */
+.advice{
+  display: flex;
+}
+.advice-main{
+  margin: 30px;
+}
+
+.input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    padding: 10px !important;
+    margin: 10px 0px;
+    height: 45px;
+    border: 1px solid ;
+}
+textarea {
+    height: 70px !important;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+.name-list {
+    width: 48%;
+}
+.usbody{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* ---------   Responsiveness   -------------- */
+/*medium screens - Laptops*/
+@media screen and (max-width: 1024px) {
+  .hero{
+      background-image:url("https://wallpapertag.com/wallpaper/middle/6/5/6/143960-gym-wallpaper-1920x1080-for-meizu.jpg");
+      height: 500px;
+      background-position: center;
+  }
+  .hero-text{
+      height: 500px;
+  }
+  h1{
+      font-size: 70px;
+  }
+  .testimony-main{
+      width: 90%;
+      justify-content: space-evenly;
+ }
+}
+/*Small screens - tablets*/
+@media screen and (max-width: 768px) {
+  .hero{
+      background-image:url("https://wallpapertag.com/wallpaper/middle/6/5/6/143960-gym-wallpaper-1920x1080-for-meizu.jpg");
+      height: 600px;
+      background-position: center;
+  }
+  .hero-text{
+      height: 600px;
+  }
+  h1{
+      font-size: 60px;
+  }
+  .about{
+      overflow: hidden;
+  }
+  .about-text{
+      background-color: rgba(4,7,32,.5);
+      
+  }
+  .card{
+      width: 90%;;
+  }
+  .card-list{
+      width: 250px;
+  }
+  .title{
+      font-size: 36px;
+  }
+}
+
+/*Extra small screens - phones*/
+@media screen and (max-width: 480px) {
+  .hero{
+      background-image:url("https://wallpapertag.com/wallpaper/middle/6/5/6/143960-gym-wallpaper-1920x1080-for-meizu.jpg");
+      height: 500px;
+      background-position: center;
+      
+
+  }
+  .hero-text{
+      height: 500px;
+  }
+  h1{
+      font-size: 40px;
+  }
+  .about-text{
+      background-color: rgba(4,7,32,.3);
+      
+  }
+  .title{
+  font-size: 30px; 
+  padding:30px 10px;  
+  
+  }
+  h3{
+      font-size: 25px;
+  }
+  .about{
+      height: 500px;;
+      overflow: hidden;
+      background-position-x:left ;
+  
+  }
+  .card{
+      width: 100%;;
+  }
+  .card-list{
+      width: 300px;
+  }
+  .testimony-main{
+      justify-content: center;
+  }
+  .testimony-text{
+      width: 80%;
+  }
+  .testimony-image{
+      margin-left:0px;
+      width:300px;
+  }
+  .contact-main{
+  width: 90%;
+  margin:auto;    
+  }
+  .name{
+      flex-direction: column;
+  }
+  .name-list{
+      width: 100%;
+  }
+  .contact-form{
+      width: 100%;
+  }
+  .contact-list{
+      width:80%;
+      border:1px solid rgb(77, 72, 72);
+      padding:20px;
+      border-radius: 10px;
+
+  }.contact-list p{
+      font-size: 13px;
+  }
+}

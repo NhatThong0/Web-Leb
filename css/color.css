@@ -1,0 +1,62 @@
+.hero-text{
+    background-color: rgba(20, 23, 52, 0.5);
+}
+nav{
+    background-color:rgb(0, 0, 0);
+  }
+  /*  */
+  h1{
+    color:rgb(180, 46, 46);
+          text-shadow: 8px 10px 10px #390a0a;
+  }
+  h1.category{
+    color: rgb(255, 191, 0);
+    text-shadow: 8px 10px 10px #c294284d;
+  }
+  h3.category-name{
+    color: rgba(255, 255, 255, 0.987);
+  }
+  .testimony-text{
+    color: #ffff;
+  }
+  p.cmt-text{
+    color: white;
+  }
+  .comment{
+    background     : linear-gradient(20deg, #333, rgb(105, 105, 105));
+  }
+
+/* body section */
+  section {
+    background     : linear-gradient(20deg, #333, rgb(105, 105, 105));
+  }
+  /* card */
+  .card {
+    background   : #e4c6a7ea;
+    box-shadow   : 4px 4px 25px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* ADVICE */
+  textarea:focus{
+    outline: 1.5px solid gray;
+  }
+  /*  */
+  .footer   {
+    background-color: #25262a;
+    color: #727272;
+  }
+  .title {
+    color: #eee;
+  }
+  li:hover {
+    color: #eee;
+  }
+  .socials a {
+    background-color: #33353b;
+  }
+  .socials a:hover i {
+    color: #eee;
+  }
+  .footter1{
+    background: #f9bb01;
+  }
